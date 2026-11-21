@@ -1,0 +1,12 @@
+definition,gap_pct
+Gap to conservative price (P25),1.5
+Gap to target price (P50): the headline,3.9
+"Worst single month, gap to target",4.04
+"Worst single product, gap to target",4.52
+"Worst single sector, gap to target",5.6
+Target moved up to P65,5.94
+"Worst single agent, gap to target",6.08
+Target moved up to P70,6.75
+Gap to stretch price (P75),7.85
+Average miss on below-target deals only,8.2
+Gap as % of below-target revenue only,8.96

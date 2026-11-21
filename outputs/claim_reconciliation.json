@@ -1,0 +1,62 @@
+[
+  {
+    "definition": "Gap to target, % of won revenue (headline)",
+    "value": 3.9
+  },
+  {
+    "definition": "Gap to conservative, % of won revenue",
+    "value": 1.5
+  },
+  {
+    "definition": "Gap to stretch, % of won revenue",
+    "value": 7.85
+  },
+  {
+    "definition": "Gap to target, % of revenue on the below-target deals only",
+    "value": 8.96
+  },
+  {
+    "definition": "Unweighted mean gap to target per deal, % of its target",
+    "value": 3.97
+  },
+  {
+    "definition": "Unweighted mean gap among below-target deals, % of their target",
+    "value": 8.2
+  },
+  {
+    "definition": "Share of won revenue sitting on below-target deals",
+    "value": 43.49
+  },
+  {
+    "definition": "Highest gap to target in any single product (min 1 deals): GTX Basic",
+    "value": 4.52
+  },
+  {
+    "definition": "Highest gap to target in any single sector (min 1 deals): telecommunications",
+    "value": 5.6
+  },
+  {
+    "definition": "Highest gap to target in any single size_band (min 1 deals): mid",
+    "value": 4.1
+  },
+  {
+    "definition": "Highest gap to target in any single sales_agent (min 20 deals): Cassey Cress",
+    "value": 6.08
+  },
+  {
+    "definition": "Highest gap to target in any single month of Q4",
+    "value": 4.04
+  },
+  {
+    "definition": "Gap if the target were set at P65 instead of the median",
+    "value": 5.94
+  },
+  {
+    "definition": "Gap if the target were set at P70 instead of the median",
+    "value": 6.75
+  },
+  {
+    "definition": "Gap if the target were set at P75 instead of the median",
+    "value": 7.85
+  }
+]

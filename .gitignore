@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+.pytest_cache/
+crm.duckdb
+crm.duckdb.wal
+data/raw/*.zip

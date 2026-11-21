@@ -1,0 +1,211 @@
+{
+  "train_deals": 4726,
+  "test_deals": 1985,
+  "train_win_rate": 0.6437,
+  "test_win_rate": 0.6025,
+  "base_rate": {
+    "auc": 0.5,
+    "brier": 0.2412,
+    "log_loss": 0.6756
+  },
+  "best_model": "logistic C=0.003",
+  "best_model_test": {
+    "auc": 0.502,
+    "brier": 0.2412,
+    "log_loss": 0.6757,
+    "auc_95ci": [
+      0.4769,
+      0.5274
+    ],
+    "brier_improvement_95ci": [
+      -0.0018,
+      0.0019
+    ]
+  },
+  "validation_grid": [
+    {
+      "model": "logistic C=0.003",
+      "auc": 0.5335,
+      "brier": 0.2397,
+      "log_loss": 0.6729
+    },
+    {
+      "model": "logistic C=0.01",
+      "auc": 0.5332,
+      "brier": 0.2397,
+      "log_loss": 0.6729
+    },
+    {
+      "model": "logistic C=0.1",
+      "auc": 0.5315,
+      "brier": 0.2399,
+      "log_loss": 0.6736
+    },
+    {
+      "model": "logistic C=1.0",
+      "auc": 0.5278,
+      "brier": 0.2411,
+      "log_loss": 0.6764
+    },
+    {
+      "model": "gradient boosting depth=2 lr=0.03 iters=100",
+      "auc": 0.5098,
+      "brier": 0.2732,
+      "log_loss": 0.779
+    },
+    {
+      "model": "gradient boosting depth=3 lr=0.03 iters=200",
+      "auc": 0.5161,
+      "brier": 0.2807,
+      "log_loss": 0.8231
+    },
+    {
+      "model": "gradient boosting depth=3 lr=0.1 iters=100",
+      "auc": 0.5185,
+      "brier": 0.2846,
+      "log_loss": 0.8494
+    }
+  ],
+  "all_models_on_test": [
+    {
+      "model": "logistic C=0.003",
+      "auc": 0.502,
+      "brier": 0.2412,
+      "log_loss": 0.6757,
+      "auc_95ci": [
+        0.4769,
+        0.5274
+      ],
+      "brier_improvement_95ci": [
+        -0.0018,
+        0.0019
+      ],
+      "top_20pct_win_rate": 0.602
+    },
+    {
+      "model": "logistic C=0.01",
+      "auc": 0.5066,
+      "brier": 0.2414,
+      "log_loss": 0.6762,
+      "auc_95ci": [
+        0.4812,
+        0.5315
+      ],
+      "brier_improvement_95ci": [
+        -0.0027,
+        0.0022
+      ],
+      "top_20pct_win_rate": 0.602
+    },
+    {
+      "model": "logistic C=0.1",
+      "auc": 0.5203,
+      "brier": 0.241,
+      "log_loss": 0.6752,
+      "auc_95ci": [
+        0.4958,
+        0.5454
+      ],
+      "brier_improvement_95ci": [
+        -0.0027,
+        0.0032
+      ],
+      "top_20pct_win_rate": 0.6297
+    },
+    {
+      "model": "logistic C=1.0",
+      "auc": 0.5262,
+      "brier": 0.2408,
+      "log_loss": 0.6749,
+      "auc_95ci": [
+        0.5014,
+        0.5508
+      ],
+      "brier_improvement_95ci": [
+        -0.0028,
+        0.0036
+      ],
+      "top_20pct_win_rate": 0.6499
+    },
+    {
+      "model": "gradient boosting depth=2 lr=0.03 iters=100",
+      "auc": 0.5274,
+      "brier": 0.2542,
+      "log_loss": 0.7087,
+      "auc_95ci": [
+        0.502,
+        0.5525
+      ],
+      "brier_improvement_95ci": [
+        -0.0173,
+        -0.0089
+      ],
+      "top_20pct_win_rate": 0.6222
+    },
+    {
+      "model": "gradient boosting depth=3 lr=0.03 iters=200",
+      "auc": 0.5324,
+      "brier": 0.2547,
+      "log_loss": 0.713,
+      "auc_95ci": [
+        0.5077,
+        0.5572
+      ],
+      "brier_improvement_95ci": [
+        -0.018,
+        -0.0089
+      ],
+      "top_20pct_win_rate": 0.6272
+    },
+    {
+      "model": "gradient boosting depth=3 lr=0.1 iters=100",
+      "auc": 0.5344,
+      "brier": 0.2549,
+      "log_loss": 0.715,
+      "auc_95ci": [
+        0.5094,
+        0.5594
+      ],
+      "brier_improvement_95ci": [
+        -0.0186,
+        -0.0089
+      ],
+      "top_20pct_win_rate": 0.6322
+    }
+  ],
+  "top_20pct_win_rate": 0.602,
+  "hindsight_base_rate": {
+    "auc": 0.5,
+    "brier": 0.2395,
+    "log_loss": 0.672
+  },
+  "leakage_checks": {
+    "close_value (price on the deal)": {
+      "auc": 1.0,
+      "brier": 0.0,
+      "log_loss": 0.0
+    },
+    "close month": {
+      "auc": 0.5216,
+      "brier": 0.2748,
+      "log_loss": 0.7707
+    },
+    "sales cycle length": {
+      "auc": 0.5699,
+      "brier": 0.2556,
+      "log_loss": 0.7151
+    }
+  },
+  "lost_deals_total": 2473,
+  "lost_deals_with_positive_price": 0,
+  "list_prices_per_product": 1,
+  "win_rate_by_product": {
+    "GTK 500": 0.6,
+    "MG Advanced": 0.603,
+    "GTX Plus Basic": 0.621,
+    "GTX Pro": 0.636,
+    "GTX Basic": 0.637,
+    "GTX Plus Pro": 0.643,
+    "MG Special": 0.648
+  }
+}

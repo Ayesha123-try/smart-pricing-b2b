@@ -1,0 +1,16 @@
+definition,value,distance_from_7.1
+"Gap to target, % of won revenue (headline)",3.9,3.2
+"Gap to conservative, % of won revenue",1.5,5.6
+"Gap to stretch, % of won revenue",7.85,0.75
+"Gap to target, % of revenue on the below-target deals only",8.96,1.86
+"Unweighted mean gap to target per deal, % of its target",3.97,3.13
+"Unweighted mean gap among below-target deals, % of their target",8.2,1.1
+Share of won revenue sitting on below-target deals,43.49,36.39
+Highest gap to target in any single product (min 1 deals): GTX Basic,4.52,2.58
+Highest gap to target in any single sector (min 1 deals): telecommunications,5.6,1.5
+Highest gap to target in any single size_band (min 1 deals): mid,4.1,3.0
+Highest gap to target in any single sales_agent (min 20 deals): Cassey Cress,6.08,1.02
+Highest gap to target in any single month of Q4,4.04,3.06
+Gap if the target were set at P65 instead of the median,5.94,1.16
+Gap if the target were set at P70 instead of the median,6.75,0.35
+Gap if the target were set at P75 instead of the median,7.85,0.75

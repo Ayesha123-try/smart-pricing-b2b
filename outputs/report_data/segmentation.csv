@@ -1,0 +1,7 @@
+grouping,explained_pct,chance_pct
+Sector,0.14,0.21
+Company size,0.03,0.05
+Sales agent,0.63,0.68
+Manager,0.15,0.12
+Regional office,0.06,0.05
+Account,1.77,1.98

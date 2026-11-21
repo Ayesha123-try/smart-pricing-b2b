@@ -1,0 +1,87 @@
+{
+  "opportunities_total": 8800,
+  "stage_counts": {
+    "Won": 4238,
+    "Lost": 2473,
+    "Engaging": 1589,
+    "Prospecting": 500
+  },
+  "backtest_deals": 1196,
+  "won_revenue": 2802496.0,
+  "deals_below_target": 580,
+  "deals_below_target_pct": 48.5,
+  "revenue_gap_to_target": 109167,
+  "gap_pct_of_won_revenue": 3.9,
+  "gap_pct_95ci": [
+    3.43,
+    4.38
+  ],
+  "look_ahead_audit": "passed on all 1196 deals",
+  "gap_to_conservative_pct": 1.5,
+  "gap_to_stretch_pct": 7.85,
+  "capture_scenarios_pct_of_won_revenue": {
+    "25%": 0.97,
+    "50%": 1.95,
+    "100%": 3.9
+  },
+  "calibration_pct": {
+    "below_conservative (expect ~25)": 26.4,
+    "conservative_to_target (expect ~25)": 22.1,
+    "target_to_stretch (expect ~25)": 25.8,
+    "above_stretch (expect ~25)": 25.7
+  },
+  "level_used": {
+    "product+sector": 620,
+    "product+sector+size": 439,
+    "product+size": 134,
+    "all products": 3
+  },
+  "median_comparable_deals": 50.0,
+  "sensitivity_gap_range_pct": [
+    2.75,
+    5.12
+  ],
+  "benchmarks": {
+    "hierarchical_pinball": 0.03533,
+    "product_only_pinball": 0.03502,
+    "list_price_pinball": 0.04033,
+    "product_only_gap_pct": 3.96,
+    "list_price_gap_pct": 4.03
+  },
+  "within_product_price_variance_explained": {
+    "sector": {
+      "explained_pct": 0.14,
+      "expected_by_chance_pct": 0.21
+    },
+    "size_band": {
+      "explained_pct": 0.03,
+      "expected_by_chance_pct": 0.05
+    },
+    "sales_agent": {
+      "explained_pct": 0.63,
+      "expected_by_chance_pct": 0.68
+    },
+    "manager": {
+      "explained_pct": 0.15,
+      "expected_by_chance_pct": 0.12
+    },
+    "regional_office": {
+      "explained_pct": 0.06,
+      "expected_by_chance_pct": 0.05
+    },
+    "account": {
+      "explained_pct": 1.77,
+      "expected_by_chance_pct": 1.98
+    }
+  },
+  "price_to_list_ratio": {
+    "count": 4238.0,
+    "mean": 0.996,
+    "std": 0.099,
+    "min": 0.657,
+    "25%": 0.929,
+    "50%": 0.998,
+    "75%": 1.063,
+    "max": 1.342
+  }
+}

@@ -1,0 +1,4 @@
+method,pinball_loss,gap_pct
+Segmented corridor (this project),0.03533,3.9
+Same product only,0.03502,3.96
+List price for every deal,0.04033,4.03

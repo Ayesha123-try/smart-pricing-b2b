@@ -1,0 +1,5 @@
+level,deals,revenue,gap,below_target,gap_pct_of_group_revenue,share_of_total_gap
+product+sector,620,1439388,56355.0,49.5,3.92,51.6
+product+sector+size,439,862517,35388.0,46.7,4.1,32.4
+product+size,134,417214,16946.0,50.0,4.06,15.5
+all products,3,83377,477.0,33.3,0.57,0.4

@@ -1,0 +1,11 @@
+sector,deals,revenue,gap,below_target,gap_pct_of_group_revenue,share_of_total_gap
+retail,246,546450,26475.0,54.1,4.84,24.3
+technology,193,431548,21376.0,50.3,4.95,19.6
+medical,166,370499,12131.0,45.8,3.27,11.1
+finance,99,285969,10565.0,42.4,3.69,9.7
+telecommunications,78,154337,8650.0,61.5,5.6,7.9
+software,122,317226,8065.0,41.8,2.54,7.4
+marketing,110,250374,5836.0,35.5,2.33,5.3
+entertainment,66,179722,5571.0,53.0,3.1,5.1
+employment,50,102376,5315.0,56.0,5.19,4.9
+services,66,163995,5184.0,47.0,3.16,4.7

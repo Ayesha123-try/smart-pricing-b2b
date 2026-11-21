@@ -1,0 +1,4 @@
+field,auc,brier
+close_value (price on the deal),1.0,0.0
+close month,0.5216,0.2748
+sales cycle length,0.5699,0.2556

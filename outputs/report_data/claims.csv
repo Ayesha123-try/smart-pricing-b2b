@@ -1,0 +1,5 @@
+claim,summary_says,measured,verdict
+Opportunities in the data,"8,800","8,800",Confirmed
+Deals in the backtest,"1,196","1,196",Confirmed
+Won revenue priced below target and stretch,"3.9% below target, up to 7.9% below stretch",3.9% (95% CI 3.43 to 4.38%) and 7.85%,Confirmed
+Win model against the base rate,could not beat it,"Brier 0.2412 vs 0.2412, AUC 0.502",Confirmed
